@@ -1,6 +1,4 @@
-# snake-pybr11
-simple "snake" game
-===================
+# simple "snake" game
 
 This game was created during the great tutorial offered by Prof. /JSbueno
 
