@@ -7,7 +7,7 @@ It plays a few sounds taken from the Pitfall Atari game.
 How to play
 -----------
 
-To play the game, run main.py.
+To play the game, just run main.py.
 
 Requirements
 ------------
@@ -17,7 +17,9 @@ pygame
 TODO
 ----
 
-Bit of tidying up and documentation needs doing.
+* bit of tidying up
+* documentation
+* score
 
 ******************
 
