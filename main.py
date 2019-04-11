@@ -9,8 +9,8 @@ import pygame
 import sys
 import random
 
-w, h = 24, 18
-BLOCK = 25
+w, h = 40, 25
+BLOCK = 20
 SIZE = BLOCK*w, BLOCK*h
 COLOR_BG = (0, 0, 0)
 COLOR_SNAKE = (0, 216, 0)
@@ -63,7 +63,7 @@ def quit():
 
 
 def die(msg):
-    print msg
+    print(msg)
     play_died()
 
     for i in range(27):
@@ -116,7 +116,7 @@ def loop():
 
         pygame.display.flip()
 
-        kk.extend(get_keys(200))
+        kk.extend(get_keys(100))
         if len(kk) > 0:
             key = kk[0]
             del kk[0]
@@ -146,7 +146,7 @@ def loop():
         if m[x][y] == 1:
             die("Collided with itself")
         if m[x][y] == 2:
-            print "Ate sth"
+            print("Ate sth")
             play_food()
             snake_size += 1
             food = []
